@@ -3,7 +3,7 @@
 import { Dithering } from "@paper-design/shaders-react"
 import { useState } from "react"
 
-export default function ResumePage() {
+export default function LinksPage() {
   const [isDarkMode, setIsDarkMode] = useState(true)
 
   return (
@@ -35,21 +35,13 @@ export default function ResumePage() {
 
         {/* Header */}
         <div className="mb-12">
-          <h1 className="text-lg font-normal mb-8">about</h1>
-          <div className="mb-8">
-            <h2 className="text-lg font-normal">BETH WANG</h2>
-            <h3 className="text-lg font-normal">NEMO</h3>
-          </div>
+          <h1 className="text-lg font-normal mb-8">links</h1>
+          <p className="text-lg font-normal">coming up</p>
         </div>
 
-        {/* Footer Links Section */}
+        {/* Back link */}
         <div className="absolute bottom-8 left-8">
-          <div className="flex space-x-4 text-lg font-mono">
-            <a href="/links" className="hover:underline cursor-pointer">Links</a>
-            <a href="https://x.com/bethgenewang" target="_blank" rel="noopener noreferrer" className="hover:underline cursor-pointer">Twitter</a>
-            <a href="mailto:beth.d.wang@gmail.com" className="hover:underline cursor-pointer">Email</a>
-            <a href="https://tobespicypunk.substack.com" target="_blank" rel="noopener noreferrer" className="hover:underline cursor-pointer">Blog</a>
-          </div>
+          <a href="/" className="text-lg font-mono hover:underline cursor-pointer">&larr; Back</a>
         </div>
       </div>
 
