@@ -1,30 +1,19 @@
-# Differing Effect Resume Template
+# spicypunk hub
 
-*Automatically synced with your [v0.app](https://v0.app) deployments*
+Personal website for Beth Wang. Built with Next.js and deployed on Vercel.
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/bethgenewang-gmailcoms-projects/v0-differing-effect-resume-templat-7a)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.app-black?style=for-the-badge)](https://v0.app/chat/lCHxFpjeHqL)
+## Setup
 
-## Overview
+```bash
+npm install
+npm run dev
+```
 
-This repository will stay in sync with your deployed chats on [v0.app](https://v0.app).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.app](https://v0.app).
+Open [http://localhost:3000](http://localhost:3000) to view locally.
 
-## Deployment
+## Stack
 
-Your project is live at:
-
-**[https://vercel.com/bethgenewang-gmailcoms-projects/v0-differing-effect-resume-templat-7a](https://vercel.com/bethgenewang-gmailcoms-projects/v0-differing-effect-resume-templat-7a)**
-
-## Build your app
-
-Continue building your app on:
-
-**[https://v0.app/chat/lCHxFpjeHqL](https://v0.app/chat/lCHxFpjeHqL)**
-
-## How It Works
-
-1. Create and modify your project using [v0.app](https://v0.app)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+- [Next.js](https://nextjs.org)
+- [Tailwind CSS](https://tailwindcss.com)
+- [@paper-design/shaders-react](https://github.com/paper-design/shaders) for dithering effects
+- Deployed on [Vercel](https://vercel.com)
