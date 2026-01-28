@@ -34,12 +34,12 @@ export default function ResumePage() {
         </button>
 
         {/* Header */}
-        <div className="mb-12">
-          <h1 className="text-lg font-normal mb-8">about</h1>
-          <div className="mb-8">
-            <h2 className="text-lg font-normal">BETH WANG</h2>
-            <h3 className="text-lg font-normal">NEMO</h3>
-          </div>
+        <h1 className="text-lg font-normal mb-8">about</h1>
+
+        {/* Name */}
+        <div className="absolute top-[20%] left-8">
+          <h2 className="text-4xl font-normal mb-4">BETH WANG</h2>
+          <h3 className="text-4xl font-normal">NEMO</h3>
         </div>
 
         {/* Footer Links Section */}
