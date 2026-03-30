@@ -47,7 +47,7 @@ export default function LinksPage() {
         ))}
       </ul>
 
-      <div className="mt-12">
+      <div className="fixed bottom-8 left-8">
         <a href="/" className="text-lg font-mono hover:underline cursor-pointer">&larr; Back</a>
       </div>
     </div>
