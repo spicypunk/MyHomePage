@@ -1,18 +1,12 @@
 "use client"
 
 import { useState } from "react"
-import Link from "next/link"
 
-const projects = [
-  { name: "A.I. Mindset Trainer App", slug: "ai-mindset-trainer" },
-  { name: "Reddit Auto Comment Agent", slug: "reddit-auto-comment-agent" },
-]
-
-export default function LinksPage() {
+export default function RedditAutoCommentAgentPage() {
   const [isDarkMode, setIsDarkMode] = useState(true)
 
   return (
-    <div className={`min-h-screen p-8 font-mono ${isDarkMode ? "bg-black text-white" : "bg-white text-black"}`}>
+    <div className={`min-h-screen p-8 font-mono flex flex-col items-center ${isDarkMode ? "bg-black text-white" : "bg-white text-black"}`}>
       <button
         onClick={() => setIsDarkMode(!isDarkMode)}
         className={`absolute top-8 right-8 p-2 rounded-full transition-colors ${
@@ -32,23 +26,17 @@ export default function LinksPage() {
         )}
       </button>
 
-      <h1 className="text-lg font-normal mb-12">links</h1>
+      <h1 className="text-xl font-normal mb-6">Reddit Auto Comment Agent</h1>
 
-      <ul className="space-y-4">
-        {projects.map((project) => (
-          <li key={project.slug}>
-            <Link
-              href={`/links/${project.slug}`}
-              className={`text-base hover:underline ${isDarkMode ? "text-white/80 hover:text-white" : "text-black/80 hover:text-black"}`}
-            >
-              {project.name}
-            </Link>
-          </li>
-        ))}
-      </ul>
+      <p className={`text-sm mb-3 max-w-lg text-center ${isDarkMode ? "text-white/70" : "text-black/70"}`}>
+        An intelligent agent that speaks in your voice on Reddit.
+      </p>
+      <p className={`text-sm mb-8 max-w-lg text-center ${isDarkMode ? "text-white/50" : "text-black/50"}`}>
+        This agent analyzes your writing style on Reddit and automatically generates replies that match your tone, vocabulary, and personality. It learns how you communicate so every response feels authentically you.
+      </p>
 
       <div className="mt-12">
-        <a href="/" className="text-lg font-mono hover:underline cursor-pointer">&larr; Back</a>
+        <a href="/links" className="text-lg font-mono hover:underline cursor-pointer">&larr; Back</a>
       </div>
     </div>
   )
