@@ -6,6 +6,7 @@ import Link from "next/link"
 const projects = [
   { name: "A.I. Mindset Trainer App", slug: "ai-mindset-trainer" },
   { name: "Reddit Auto Comment Agent", slug: "reddit-auto-comment-agent" },
+  { name: "Quantitative Research on Crypto Arbitrage", slug: "crypto-arbitrage-research" },
 ]
 
 export default function LinksPage() {
