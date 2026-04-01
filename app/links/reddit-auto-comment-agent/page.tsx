@@ -35,6 +35,15 @@ export default function RedditAutoCommentAgentPage() {
         This agent analyzes your writing style on Reddit and automatically generates replies that match your tone, vocabulary, and personality. It learns how you communicate so every response feels authentically you.
       </p>
 
+      <div className="max-w-2xl w-full" style={{ position: "relative", paddingBottom: "64.63%", height: 0 }}>
+        <iframe
+          src="https://www.loom.com/embed/394c8532ea4b4041a277e01ada74e3ed"
+          frameBorder="0"
+          allowFullScreen
+          style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", borderRadius: "0.25rem" }}
+        />
+      </div>
+
       <div className="mt-12">
         <a href="/links" className="text-lg font-mono hover:underline cursor-pointer">&larr; Back</a>
       </div>
