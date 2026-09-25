@@ -1,5 +1,6 @@
 "use client"
 
+import Link from "next/link"
 import { Dithering } from "@paper-design/shaders-react"
 import { useTheme } from "next-themes"
 import { useEffect, useState } from "react"
@@ -16,7 +17,11 @@ export default function ResumePage() {
       <div className="w-1/2 p-8 font-mono relative z-10 bg-white text-black dark:bg-black dark:text-white">
         <ThemeToggle />
 
-        <h1 className="text-lg font-normal mb-8">about</h1>
+        <h1 className="text-lg font-normal mb-8">
+          <Link href="/about" className="hover:underline cursor-pointer">
+            about
+          </Link>
+        </h1>
 
         <div className="absolute top-[20%] left-8">
           <h2 className="text-4xl font-normal mb-4">BETH WANG</h2>
