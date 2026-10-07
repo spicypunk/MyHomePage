@@ -23,8 +23,8 @@ export default function ResumePage() {
           </Link>
         </h1>
 
-        <div className="absolute top-[20%] left-8">
-          <h2 className="text-4xl font-normal mb-4">BETH WANG</h2>
+        <div className="absolute top-[20%] left-14">
+          <h2 className="text-4xl font-normal mb-4">BETH</h2>
           <h3 className="text-4xl font-normal">NEMO</h3>
         </div>
 

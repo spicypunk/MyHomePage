@@ -1,12 +1,12 @@
-import Link from "next/link"
+// import Link from "next/link"
 import { ThemeToggle } from "@/components/theme-toggle"
 import { BackButton } from "@/components/back-button"
 
-const projects = [
-  { name: "A.I. Mindset Trainer App", slug: "ai-mindset-trainer" },
-  { name: "Reddit Auto Comment Agent", slug: "reddit-auto-comment-agent" },
-  { name: "Quantitative Research on Crypto Arbitrage", slug: "crypto-arbitrage-research" },
-]
+// const projects = [
+//   { name: "A.I. Mindset Trainer App", slug: "ai-mindset-trainer" },
+//   { name: "Reddit Auto Comment Agent", slug: "reddit-auto-comment-agent" },
+//   { name: "Quantitative Research on Crypto Arbitrage", slug: "crypto-arbitrage-research" },
+// ]
 
 export default function LinksPage() {
   return (
@@ -15,7 +15,11 @@ export default function LinksPage() {
 
       <h1 className="text-lg font-normal mb-12">links</h1>
 
-      <ul className="space-y-4">
+      <div className="flex items-center justify-center min-h-[calc(100vh-12rem)]">
+        <img src="/road-work-ahead.png" alt="Road Work Ahead" width={600} height={600} className="max-w-full h-auto" />
+      </div>
+
+      {/* <ul className="space-y-4">
         {projects.map((project) => (
           <li key={project.slug}>
             <Link
@@ -26,7 +30,7 @@ export default function LinksPage() {
             </Link>
           </li>
         ))}
-      </ul>
+      </ul> */}
 
       <BackButton href="/" />
     </div>
