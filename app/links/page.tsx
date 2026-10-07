@@ -16,7 +16,7 @@ export default function LinksPage() {
       <h1 className="text-lg font-normal mb-12">links</h1>
 
       <div className="flex items-center justify-center min-h-[calc(100vh-12rem)]">
-        <img src="/road-work-ahead.png" alt="Road Work Ahead" width={600} height={600} className="max-w-full h-auto" />
+        <img src="/road-work-ahead.png" alt="Road Work Ahead" width={300} height={300} className="max-w-full h-auto" />
       </div>
 
       {/* <ul className="space-y-4">
